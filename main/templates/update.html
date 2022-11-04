@@ -1,0 +1,6 @@
+<form action="" method="POST">
+    {% csrf_token %}
+    {{updateform}}
+    <a href="{% url 'alltodo' %}"><button>Submit</button></a>
+    
+</form>
